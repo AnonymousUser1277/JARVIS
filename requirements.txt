@@ -1,0 +1,42 @@
+# --- Frameworks & UI ---
+flask
+flask-socketio
+flask-cors
+eventlet
+pillow
+pystray
+pyautogui
+tkinter
+pynput
+keyboard
+
+# --- System & Hardware ---
+psutil
+wmi
+pywin32
+pycaw
+comtypes
+mss
+opencv-python
+numpy
+pytesseract
+pyperclip
+
+# --- AI & Knowledge ---
+groq
+langchain-huggingface
+langchain-community
+langchain-text-splitters
+faiss-cpu
+sentence-transformers
+google-generativeai
+redis
+
+# --- Utilities & Data ---
+python-dotenv
+python-docx
+icalendar
+dateparser
+requests
+uiautomation
+watchdog

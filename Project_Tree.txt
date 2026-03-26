@@ -1,0 +1,113 @@
+JARVIS/
+│
+├── .env
+├── .gitignore
+├── Jarvis.bat
+├── main.py
+├── config.ini
+├── requirements.txt
+|
+├── ai/
+|   ├── graph_memory.py
+|   ├── vector_store.py
+│   ├── connection_pool.py
+│   ├── document_generator.py
+│   ├── ImageGeneration.py
+│   ├── instructions.py
+│   ├── offline_classifier.py
+│   ├── proactive.py
+│   ├── providers.py
+│   ├── task_queue.py
+│   ├── vision.py
+│   └── __init__.py
+│
+├── audio/
+│   ├── coordinator.py
+│   ├── stt.py
+│   ├── tts.html
+│   ├── tts.py
+│   ├── tts_native.py
+│   ├── volume.py
+│   └── __init__.py
+│
+├── automation/
+│   ├── executor.py
+│   ├── hotkeys.py
+│   ├── screen.py
+│   └── __init__.py
+│
+├── browser_extention/
+│   ├── background.js
+│   └── manifest.json
+│
+├── config/
+│   ├── aliases.py
+│   ├── api_keys.py
+│   ├── loader.py
+│   ├── monitor_config.py
+│   ├── sentences_list.py
+│   ├── settings.py
+│   └── __init__.py
+│
+├── core/
+│   ├── auth.py
+│   ├── context_manager.py
+│   ├── local_server.py
+|   ├── file_indexer.py
+│   ├── notification.py
+│   ├── task_scheduler.py
+│   └── __init__.py
+│
+├── Data/
+|   ├── chat_sessions
+|   ├── faiss_index
+|   ├── History
+|   ├── learning_data
+|   ├── logs
+│   ├── command_aliases.json
+|   ├── file_index.db
+|   ├── graph_memory.db
+|   ├──monitor_preferences.json
+│   ├── pngwing.com.ico
+│   └── scheduled_tasks.db
+│   
+├── integrations/
+|   ├── calendar_integration.py
+|   ├── gmail_integration.py
+|   └── __init__.py
+|
+├── monitors/
+│   ├── browser.py
+│   ├── clipboard.py
+│   ├── devices.py
+│   ├── explorer.py
+│   ├── system.py
+│   ├── window.py
+|   ├── phone_notification.py
+|   ├── monitor_controller.py
+│   └── __init__.py
+│
+├── ui/
+│   ├── alias_editor.py
+│   ├── dialogs.py
+│   ├── gui.py
+│   ├── monitor_selector.py
+│   ├── settings_dialog.py
+│   ├── startup.py
+│   ├── suggestion_panel.py
+│   ├── terminal.py
+│   ├── theme_manager.py
+│   ├── theme_selector.py
+│   ├── tray.py
+│   └── __init__.py
+│
+└── utils/
+    ├── adb_utils.py
+    ├── admin.py
+    ├── decorators.py
+    ├── file_manager.py
+    ├── file_watcher.py
+    ├── helpers.py
+    ├── logger.py
+    ├── setup_wizard.py
+    └── __init__.py
